@@ -15,48 +15,13 @@ const FeaturedCategory = () => {
 						</a>
 					</header>
 					<ul className="px-5 nav justify-content-between bg-gray-200 rounded-md pb-2 py-md-3 mb-5 flex-nowrap flex-xl-wrap overflow-auto overflow-xl-visible" role="tablist">
-						<TabNavItem  id="tab1" activeTab={activeTab} setActiveTab={setActiveTab}>
-							<figure className="d-md-block mb-0 text-primary-indigo">
-								<i className="glyph-icon flaticon-gallery font-size-12"></i>
-							</figure>
-							<span className="tabtext font-size-3 font-weight-medium text-dark">Arts & Photography</span>
-						</TabNavItem>
-						<TabNavItem  id="tab2" activeTab={activeTab} setActiveTab={setActiveTab}>
-							<figure className="d-md-block mb-0 text-tangerine">
-							<i className="glyph-icon flaticon-cook font-size-12"></i>
-							</figure>
-							<span className="tabtext font-size-3 font-weight-medium text-dark">Food & Drink</span>
-						</TabNavItem>
-						<TabNavItem  id="tab3" activeTab={activeTab} setActiveTab={setActiveTab}>
-							<figure className="d-md-block mb-0 text-chili">
-								<i className="glyph-icon flaticon-like font-size-12"></i>
-							</figure>
-							<span className="tabtext font-size-3 font-weight-medium text-dark">Romance</span>
-						</TabNavItem>
-						<TabNavItem  id="tab4" activeTab={activeTab} setActiveTab={setActiveTab}>
-							<figure className="d-md-block mb-0 text-carolina">
-								<i className="glyph-icon flaticon-doctor font-size-12"></i>
-							</figure>
-							<span className="tabtext font-size-3 font-weight-medium text-dark">Health</span>
-						</TabNavItem>
-						<TabNavItem  id="tab5" activeTab={activeTab} setActiveTab={setActiveTab}>
-							<figure className="d-md-block mb-0 text-punch">
-								<i className="glyph-icon flaticon-resume font-size-12"></i>
-							</figure>
-							<span className="tabtext font-size-3 font-weight-medium text-dark">Biography</span>
-						</TabNavItem>
-						<TabNavItem  id="tab6" activeTab={activeTab} setActiveTab={setActiveTab}>
-							<figure className="d-md-block mb-0">
-								<i className="icon glyph-icon flaticon-jogging font-size-12"></i>
-							</figure>
-							<span className="tabtext font-size-3 font-weight-medium text-dark">Sports</span>
-						</TabNavItem>
-						<TabNavItem  id="tab7" activeTab={activeTab} setActiveTab={setActiveTab}>
-							<figure className="d-md-block mb-0">
-								<i className="icon glyph-icon flaticon-baby-boy font-size-12"></i>
-							</figure>
-							<span className="tabtext font-size-3 font-weight-medium text-dark">Children</span>
-						</TabNavItem>
+						<TabNavItem  id="tab1" activeTab={activeTab} setActiveTab={setActiveTab} color="text-primary-indigo" icon="flaticon-gallery"  title="Arts & Photography"/>
+						<TabNavItem  id="tab2" activeTab={activeTab} setActiveTab={setActiveTab} icon="flaticon-cook" title="Food & Drink" color="text-tangerine"/>
+						<TabNavItem  id="tab3" activeTab={activeTab} setActiveTab={setActiveTab} icon="flaticon-like" title="Romance" color="text-chili"/>
+						<TabNavItem  id="tab4" activeTab={activeTab} setActiveTab={setActiveTab} icon="flaticon-doctor" title="Health" color="text-carolina"/>
+						<TabNavItem  id="tab5" activeTab={activeTab} setActiveTab={setActiveTab} icon="flaticon-resume" title="Biography" color="text-punch"/>
+						<TabNavItem  id="tab6" activeTab={activeTab} setActiveTab={setActiveTab} icon="flaticon-jogging" title="Sports" />
+						<TabNavItem  id="tab7" activeTab={activeTab} setActiveTab={setActiveTab} icon="flaticon-baby-boy" title="Children"/>
 					</ul>
 				</div>
 				<div className="container">

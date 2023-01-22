@@ -1,0 +1,385 @@
+
+/*------------------------------------
+  Typography Font Size
+------------------------------------*/
+.font-size-1 {
+  font-size: 0.75rem;
+}
+
+.font-size-2 {
+  font-size: 0.875rem !important;
+}
+
+.font-size-3 {
+  font-size: 1.125rem;
+}
+
+.font-size-4 {
+  font-size: 1.25rem;
+}
+
+.font-size-5 {
+  font-size: 1.5rem;
+}
+
+.font-size-6 {
+  font-size: 1.75rem;
+}
+
+.font-size-7 {
+  font-size: 1.875rem;
+}
+
+.font-size-9 {
+  font-size: 2rem;
+}
+
+.font-size-n9 {
+  font-size: 0.562rem;
+}
+
+.font-size-10 {
+  font-size: 2.5rem;
+}
+
+.font-size-11 {
+  font-size: 3rem;
+}
+
+.font-size-12 {
+  font-size: 3.125rem;
+}
+
+.font-size-14 {
+  font-size: 3.25rem;
+}
+
+.font-size-14 {
+  font-size: 3.5rem;
+}
+
+.font-size-15 {
+  font-size: 3.75rem;
+}
+
+.font-size-16 {
+  font-size: 15.265rem;
+}
+
+.font-size-17 {
+  font-size: 5rem;
+}
+
+.font-size-200 {
+  font-size: 12.5rem;
+}
+
+.font-size-22 {
+  font-size: 1.375rem;
+}
+
+.font-size-26 {
+  font-size: 1.625rem;
+}
+
+.font-size-46 {
+  font-size: 2.875rem;
+}
+
+@media (max-width: 575.98px) {
+  .font-size-xs-25 {
+    font-size: 1.5625rem !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .font-size-xl-160 {
+    font-size: 5.625rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .font-size-xl-160 {
+    font-size: 8.125rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .font-size-xl-160 {
+    font-size: 9rem;
+  }
+}
+
+@media (min-width: 1480px) {
+  .font-size-xl-160 {
+    font-size: 11.875rem;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .font-size-xs-170 {
+    font-size: 10.625rem !important;
+  }
+}
+
+/*------------------------------------
+  Font Weight
+------------------------------------*/
+.font-weight-medium {
+  font-weight: 500 !important;
+}
+
+.font-weight-regular {
+  font-weight: 400 !important;
+}
+
+.font-weight-semi-bold {
+  font-weight: 400 !important;
+}
+
+/*------------------------------------
+  Text Colors
+------------------------------------*/
+.text-gray-700 {
+  color: #7c6e65;
+}
+
+.text-gray-400 {
+  color: #beb4b4;
+}
+
+.text-white-60 {
+  color: rgba(255, 255, 255, 0.6) !important;
+}
+
+.text-gray-450 {
+  color: #9ca6ad !important;
+}
+
+.text-gray-500 {
+  color: #838889 !important;
+}
+
+.text-gray-600 {
+  color: #7f7f83 !important;
+}
+
+.h-dark a:hover {
+  color: #161619;
+}
+
+.h-dark-white {
+  color: #161619;
+}
+
+.h-dark-white:hover {
+  color: #fff !important;
+}
+
+.h-primary {
+  color: #161619;
+}
+
+.h-primary:hover {
+  color: #f75454;
+}
+
+.h-white a:hover {
+  color: #fff !important;
+}
+
+.h-border-bottom-white:hover {
+  border-bottom: 1px solid #fff;
+}
+
+.text-gray-260 {
+  color: #e6c7b0;
+}
+
+.text-gray-360 {
+  color: #c1bdb5 !important;
+}
+
+.text-gray-705 {
+  color: #777777;
+}
+
+.text-tangerine__1 {
+  color: rgba(247, 148, 0, 0.2);
+}
+
+.text-chili__1 {
+  color: rgba(240, 16, 0, 0.2);
+}
+
+.text-carolina__1 {
+  color: rgba(0, 205, 239, 0.2);
+}
+
+/*------------------------------------
+  Line Height
+------------------------------------*/
+.text-lh-xs {
+  line-height: 1;
+}
+
+.text-lh-sm {
+  line-height: 1.2;
+}
+
+.text-lh-sm.text-height-2 {
+  height: 2.4rem;
+}
+
+.text-lh-md {
+  line-height: 1.5;
+}
+
+.text-lh-md.text-height-2 {
+  height: 3rem;
+}
+
+.text-lh-lg {
+  line-height: 1.8;
+}
+
+.text-lh-lg.text-height-2 {
+  height: 3.6rem;
+}
+
+.text-lh-1dot72 {
+  line-height: 1.72;
+}
+
+.text-lh-1dot4 {
+  line-height: 1.4;
+}
+
+.text-lh-2 {
+  line-height: 2;
+}
+
+/*------------------------------------
+  Crop Text
+------------------------------------*/
+.crop-text-2 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
+.crop-text-3 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}
+
+/*------------------------------------
+  Text Stroke
+------------------------------------*/
+.text-stroke-1 {
+  -webkit-text-fill-color: #fff6f6;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: rgba(247, 0, 0, 0.06);
+}
+
+.t-d-u,
+.t-d-u:hover {
+  text-decoration: underline;
+}
+
+.widgets-hover:hover {
+  padding-left: 12px;
+}
+
+.select-hover:hover {
+  color: #f75454 !important;
+  padding-left: 25px !important;
+}
+
+@media (min-width: 1200px) {
+  .no-gutters-xl {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .no-gutters-xl > [class*="col"] {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+
+/*------------------------------------
+  Placeholder Text Colors
+------------------------------------*/
+.placeholder-color-1::-webkit-input-placeholder {
+  color: #9ca6ad;
+}
+.placeholder-color-1::-moz-placeholder {
+  color: #9ca6ad;
+}
+.placeholder-color-1:-ms-input-placeholder {
+  color: #9ca6ad;
+}
+.placeholder-color-1::-ms-input-placeholder {
+  color: #9ca6ad;
+}
+.placeholder-color-1::placeholder {
+  color: #9ca6ad;
+}
+
+.placeholder-color-2::-webkit-input-placeholder {
+  color: #fff;
+}
+
+.placeholder-color-2::-moz-placeholder {
+  color: #fff;
+}
+
+.placeholder-color-2:-ms-input-placeholder {
+  color: #fff;
+}
+
+.placeholder-color-2::-ms-input-placeholder {
+  color: #fff;
+}
+
+.placeholder-color-2::placeholder {
+  color: #fff;
+}
+
+.placeholder-color-3::-webkit-input-placeholder {
+  color: #7f7f83;
+}
+
+.placeholder-color-3::-moz-placeholder {
+  color: #7f7f83;
+}
+
+.placeholder-color-3:-ms-input-placeholder {
+  color: #7f7f83;
+}
+
+.placeholder-color-3::-ms-input-placeholder {
+  color: #7f7f83;
+}
+
+.placeholder-color-3::placeholder {
+  color: #7f7f83;
+}
+
+.fill-primary {
+  fill: #f75454;
+}
+
+.fill-primary-green {
+  fill: #88cf00;
+}
+
+.fill-tangerine {
+  fill: #f79400;
+}

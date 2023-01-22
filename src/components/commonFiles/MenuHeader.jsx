@@ -17,12 +17,12 @@ function MenuHeader(){
             <div className="site-navigation mr-auto d-none d-xl-block">
               <ul className="nav">
                 <li className="nav-item dropdown">
-                  <a id="homeDropdownInvoker" href="#" className="dropdown-toggle nav-link link-black-100 mx-3 px-0 py-3 font-weight-medium d-flex align-items-center" aria-haspopup="true" aria-expanded="false" data-unfold-event="hover" data-unfold-target="#homeDropdownMenu" data-unfold-type="css-animation" data-unfold-duration="200" data-unfold-delay="50" data-unfold-hide-on-scroll="true" data-unfold-animation-in="slideInUp" data-unfold-animation-out="fadeOut"> Home </a>
-                  <ul id="homeDropdownMenu" className="dropdown-unfold dropdown-menu font-size-2 rounded-0 border-gray-900" aria-labelledby="homeDropdownInvoker">
-                    <li>
-                      <a href="../home/index.html" className="dropdown-item link-black-100">Home v1</a>
-                    </li>
-                  </ul>
+                    <a id="homeDropdownInvoker" href="#" className="dropdown-toggle nav-link link-black-100 mx-3 px-0 py-3 font-weight-medium d-flex align-items-center" aria-haspopup="true" aria-expanded="false" data-unfold-event="hover" data-unfold-target="#homeDropdownMenu" data-unfold-type="css-animation" data-unfold-duration="200" data-unfold-delay="50" data-unfold-hide-on-scroll="true" data-unfold-animation-in="slideInUp" data-unfold-animation-out="fadeOut"> Home </a>
+                    <ul id="homeDropdownMenu" className="dropdown-unfold dropdown-menu font-size-2 rounded-0 border-gray-900" aria-labelledby="homeDropdownInvoker">
+                        <li>
+                        <a href="../home/index.html" className="dropdown-item link-black-100">Home v1</a>
+                        </li>
+                    </ul>
                 </li>
                 <li className="nav-item">
                   <a href="#" className="nav-link link-black-100 mx-3 px-0 py-3 font-weight-medium">Categories</a>
